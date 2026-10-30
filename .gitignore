@@ -1,0 +1,9 @@
+# Keep credentials and local configuration out of this shared hub.
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+credentials*
+secrets*
+.DS_Store
